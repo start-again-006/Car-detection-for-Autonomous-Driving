@@ -81,25 +81,6 @@ flowchart TD
     C3 --> D3
 ```
 
-## Core Components
-
-- `yolo_filter_boxes`  
-  Filters predicted boxes based on confidence and class probabilities  
-
-- `iou`  
-  Computes Intersection over Union between bounding boxes  
-
-- `yolo_non_max_suppression`  
-  Removes overlapping bounding boxes using Non-Max Suppression  
-
-- `yolo_eval`  
-  End-to-end YOLO post-processing pipeline  
-
-- `predict`  
-  Runs inference and saves output images  
-
----
-
 ## Dataset & Classes
 
 - **Dataset**: COCO (pretrained)  
